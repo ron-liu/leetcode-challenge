@@ -15,3 +15,8 @@ class Solution:
         length = len(nums)
         k = k % length
         nums[:] = nums[length - k:] + nums[:length - k]
+
+# Accepted
+# 34/34 cases passed (64 ms)
+# Your runtime beats 78.28 % of python3 submissions
+# Your memory usage beats 5.09 % of python3 submissions (14.1 MB)
