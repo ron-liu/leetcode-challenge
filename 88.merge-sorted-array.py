@@ -21,8 +21,7 @@ class Solution:
                 j = j-1
             k = k - 1
         if i < 0:
-            for l in range(0, j+1):
-                A[l] = B[l]
+            A[:j+1] = B[:j+1]
 
 
 # @lc code=end
